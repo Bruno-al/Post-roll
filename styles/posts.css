@@ -1,0 +1,50 @@
+.posts{
+    width: 90%;
+    margin: 1rem auto;
+}
+.post{
+    margin: 2rem 0;
+}
+.post header {
+    text-align: start;
+    margin-top: 1rem;
+    
+}
+.post main {
+    text-align: start;
+    margin-top: 1rem;
+   
+}
+.post main h3 {
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+.post main p {
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+.post footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}
+.post footer div{
+    display: flex;
+    justify-content: center;
+    height:fit-content;
+    gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+.coracao{
+    font-size: 1.1rem;
+    color: var(--color-grey-3);
+}
+.heart_red{
+    color: var(--color-red-1);
+}
+

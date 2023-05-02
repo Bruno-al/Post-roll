@@ -1,0 +1,44 @@
+.sugestoes{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem  auto;
+    gap: 2rem;
+}
+.sugestoes div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_su{
+    display: flex;
+    justify-content: left;
+    margin-top: 0.5rem;
+}
+.user_su div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    justify-content: left;
+    align-items: start;
+    line-height: 1.5rem;
+}
+.user_su img{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.1rem;
+    border: 2px solid var(--color-grey-1);
+    border-radius: 100%;
+}
+.user_su div h4{
+    font-size: 1.10rem;
+    color: var(--color-grey-1);
+    font-weight: 600;
+}
+.user_su div span{
+    font-size: 0.90rem;
+    color: var(--color-grey-2);
+    font-weight: 400;
+}
+

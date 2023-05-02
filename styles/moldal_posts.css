@@ -1,0 +1,66 @@
+.moldal{
+    background-color: rgba(0, 0, 0, 0.461);
+    padding: 1rem 0.5rem;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: auto;
+    border-radius: 8px;
+    
+}
+.moldal header{
+    padding: 10px;
+}
+.moldal h1{
+    color: var(--color-grey-1);
+    line-height: 2rem;
+}
+.moldal  p{
+    display: block;
+    line-height: 2rem;
+    color: var(--color-grey-2);
+    
+}
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 00.1rem 00.4rem;
+}
+.close:hover{
+    background-color: rgb(255, 61, 61);
+    cursor: pointer;
+    color: var(--color-grey-1);
+    border-radius: 100%;
+}
+.moldal_conteiner{
+    
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+}
+.conteudo_post_moldal h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@keyframes aparecer{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.aparecer{
+    animation: 1s ease;
+}

@@ -1,0 +1,25 @@
+@media(min-width: 900px){
+    .parte_main_superior{
+        display: flex;
+        justify-content: space-between;
+        margin: 5.5rem  0 0  0;
+        
+    }
+    .comentarios{
+        width: 50%;
+        margin: 2rem 5rem 0 0;
+    }
+    .sugestoes{
+        width:  35%;
+        height: 30%;
+        margin-left: 2rem;
+    }
+    .posts{
+        width: 50%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .conteiner_main{
+        margin-left: 4rem;
+    }
+}

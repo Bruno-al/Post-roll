@@ -1,0 +1,75 @@
+
+
+
+.button_comentario_off{
+    background-color: var(--color-grey-4);
+    border: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    color: var(--color-grey-3);
+}
+.button_comentario_off:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.button_comentario_on{
+    background-color: var(--color-blue-2);
+    border: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.button_comentario_on:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+/* __________________________________________________________________________________________ */
+.button_post{
+    background-color: var(--color-grey-1);
+    border: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: 4px;
+    color: var(--color-white-fixed);
+}
+.button_post:hover{
+    cursor: pointer;
+}
+
+
+/* _______________________________________________________________________________________ */
+
+
+
+.button_sugestao_on{
+    background-color: var(--color-blue-2);
+    border: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+.button_sugestao_on:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.button_sugestao_off{
+    background-color: transparent;
+    border: 1px var(--color-grey-1) solid;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    color: var(--color-grey-1);
+    
+}
+.button_sugestao_off:hover{
+    cursor: pointer;
+}
